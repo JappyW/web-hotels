@@ -1,0 +1,10 @@
+
+const path = require('path');
+const pathToSequelize = require('./api/server/constants/api.env.json').PATH_TO_SEQUELIZE;
+
+module.exports = {
+    "config": path.resolve(`${pathToSequelize}config`, 'config.js'),
+    "models-path": path.resolve(`${pathToSequelize}models`),
+    "seeders-path": path.resolve(`${pathToSequelize}seeders`),
+    "migrations-path": path.resolve(``${pathToSequelize}migrations`)
+};
