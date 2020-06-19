@@ -1,0 +1,118 @@
+{
+  "CABINET": "CABINET",
+  "SIGN UP": "Sign Up",
+  "SIGN IN": "Sign In",
+  "SIGN OUT": "Sign Out",
+  "PROFILE": "Profile",
+  "EDIT": "Edit",
+  "CHANGE PASSWORD": "Change Password",
+  "STUDIO MANAGEMENT": "Studio management",
+  "LEAVE FEEDBACK": "Leave Feedback",
+  "INACTIVE STUDIOS": "Inactive Studios",
+  "ACTIVE STUDIOS": "Active studios",
+  "SUSPENDED STUDIOS": "Suspended studios",
+  "MY ORDERS": "My Orders",
+  "DROPZONE": "DropZOne",
+  "BOOK THE ROOM": "Book the room",
+  "YOUR ORDER IS": "Your order is: ",
+  "SELECT ROOM TYPE": "Select room type:",
+  "DATE TO ARRIVE": "Date to arrive:",
+  "DATE TO LEAVE": "Date to leave:",
+  "CONFIRM": "Confirm",
+  "CLOSE": "Close",
+  "CANCEL": "Cancel",
+  "SAVE": "Save",
+  "YOU DIDNT STATE YOUR FULL NAME": "You didn`t state your full name. Email is going to be used instead",
+  "YOU DIDN`T ACTIVATE YOUR ACCOUNT": "You didn`t activate your account",
+  "EDIT PROFILE": "EDIT PROFILE",
+  "RESEND VERIFICATION EMAIL": "RESEND VERIFICATION EMAIL",
+  "ENTER YOUR EMAIL": "Email",
+  "ENTER YOUR PASSWORD": "Password",
+  "PASSWORD": "Password",
+  "EMAIL": "Email",
+  "SEND": "Send",
+  "FORGOT YOUR PASSWORD": "Restore the password",
+  "OR SIGN IN USING THIRD-PARTY SERVICES": "Or Sign In using third-party services",
+  "OLD PASSWORD": "Old password",
+  "NEW PASSWORD": "New password",
+  "REPEATED NEW PASSWORD": "Repeated new password",
+  "REPEATE NEW PASSWORD": "Repeate new password",
+  "MORE INFO": "More info",
+  "ACTIVATE STUDIO": "activate studio",
+  "ACTIVATE": "activate",
+  "INACTIVATE STUDIO": "Inactivate studio",
+  "INACTIVE": "inactivate",
+  "SUSPEND": "suspend",
+  "REJECT": "reject",
+  "ENTER YOUR NAME": "Enter your name",
+  "ENTER YOUR SURNAME": "Enter your surname",
+  "CHOOSE YOUR PREFERABLE IMAGE": "Upload image",
+  "MAXIMUM SIZE OF UPLOADED FILES IS": "Max upload size is",
+  "FEEDBACKS": {
+    "RATING": {
+      "EXCELENT": "Excelent",
+      "VERY_GOOD": "Very good",
+      "AVERAGE": "Average",
+      "POOR": "Poor",
+      "TERRIBLE": "Terrible"
+    },
+    "LABELS": {
+      "LEAVE_FEEDBACK": "Leave feedback",
+      "ORDERS": "Orders:",
+      "CHOOSE": "Choose...",
+      "RATE_THE_STUDIO": "Rate the studio:",
+      "FEEDBACK_TEXT": "Feedback:"
+    },
+    "SUCCESS_MESSAGE": "Everything passed correctly!",
+    "LOADING": "Loading...",
+    "NO_ORDERS_WITHOUT_FEEDBACKS": "All your orders have corresponding feedbacks",
+    "TO_LEAVE_FEEDBACK": "You have to choose order, rate studio and enter some text"
+  },
+  "SEARCH": {
+    "SEARCH": "Search",
+    "ENTER CITY/STUDIO NAME": "Enter City/Studio name",
+    "CHECK_IN": "Check-in",
+    "CHECK_OUT": "Check-out",
+    "SEARCH STUDIOS": "Search Studios",
+    "ROOM TYPE": "Room Type",
+    "CLEAR ALL SEARCH INPUTS": "Clear all search inputs",
+    "SAVE": "Save"
+  },
+  "STUDIO_MANAGEMENT": {
+    "STUDIOS LIST": "Studios list",
+    "STUDIO": "Studio",
+    "ADDRESS": "Address",
+    "MANAGE THE STUDIO": "Manage the studio",
+    "ROOMS": "Rooms",
+    "PHOTOS": "Photos",
+    "OTHER": "Other"
+  },
+  "USER_ORDERS": {
+    "CREATED": "Created",
+    "PAID": "Paid",
+    "COMPLETED": "Completed",
+    "OWNER": "Owner"
+  },
+  "BOOKING": {
+    "BOOKING_LABEL": "Booking"
+  },
+  "DROP_ZONE": {
+    "UPLOAD_HEADING": "Upload Photos fot Your Studio",
+    "DRAG_AND_DROP": "Drag'n'drop drop some files here, or click to select files.",
+    "FILES_ARE_ALLOWED": "Only *.jpeg, *.webp, *.png images will be accepted!",
+    "MAXIMUM_SIZE_UPLOAD": "Maximum size of uploaded files is 1 MB!"
+  },
+  "OWNER_STUDIOS_LIST_COLUMNS":{
+    "STUDIO": "Studio",
+    "ADDRESS": "Address",
+    "STATUS": "Status",
+    "ROOM_DETAILS": "Room details",
+    "ADD_PHOTOS": "Add photos"
+  },
+  "ROOM_LIST_COLUMNS":{
+    "ROOM_NUMBER": "Room number",
+    "ROOM_TYPE": "Room type",
+    "COMRORTS": "Comforts"
+  }
+
+}

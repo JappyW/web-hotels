@@ -1,0 +1,120 @@
+{
+  "CABINET": "Кабінет",
+  "SIGN UP": "Реєстрація",
+  "SIGN IN": "Увійти",
+  "SIGN OUT": "Вийти",
+  "PROFILE": "Профіль",
+  "EDIT": "Редагувати",
+  "CHANGE PASSWORD": "Змінити пароль",
+  "STUDIO MANAGEMENT": "Керування готелями",
+  "LEAVE FEEDBACK": "Залишити відгук",
+  "INACTIVE STUDIOS": "Неактивні готелі",
+  "ACTIVE STUDIOS": "Активні готелі",
+  "SUSPENDED STUDIOS": "Готелі в очікуванні",
+  "MY ORDERS": "Мої замовлення",
+  "DROPZONE": "Дроп Зона",
+  "BOOK THE ROOM": "Замовити кімнату",
+  "YOUR ORDER IS": "Ваше замовлення: ",
+  "SELECT ROOM TYPE": "Виберіть тип кімнати:",
+  "DATE TO ARRIVE": "Дата заїзду:",
+  "DATE TO LEAVE": "Дата виїзду:",
+  "CONFIRM": "Підтвердити",
+  "CLOSE": "Закрити",
+  "CANCEL": "Відмінити",
+  "SAVE": "Зберегти",
+  "YOU DIDNT STATE YOUR FULL NAME": "Ви не зазначили своє ім'я. Замість нього буде використано ваш e-mail",
+  "YOU DIDN`T ACTIVATE YOUR ACCOUNT": "Ви не активували свій акаунт",
+  "EDIT PROFILE": "Редагувати профіль",
+  "RESEND VERIFICATION EMAIL": "Послати підтверджуючого листа на електронну пошту",
+  "ENTER YOUR EMAIL": "Введіть свою електронну адресу",
+  "ENTER YOUR PASSWORD": "Введіть свій пароль",
+  "PASSWORD": "Пароль",
+  "EMAIL": "Електронна адреса",
+  "SEND": "Відправити",
+  "FORGOT YOUR PASSWORD": "Відновити пароль",
+  "OR SIGN IN USING THIRD-PARTY SERVICES": "Або увійдіть через інші сервіси",
+  "OLD PASSWORD": "Старий пароль",
+  "NEW PASSWORD": "Новий пароль",
+  "REPEATED NEW PASSWORD": "Копія нового пароля",
+  "REPEATE NEW PASSWORD": "Введіть новий пароль ще раз",
+  "MORE INFO": "Більше інформації",
+  "ACTIVATE STUDIO": "Активувати готель",
+  "ACTIVATE": "Активувати",
+  "INACTIVATE STUDIO": "Деактивувати готель",
+  "INACTIVATE": "Деактивувати",
+  "SUSPEND": "В очікуванні",
+  "REJECT": "Відмовити",
+  "ENTER YOUR NAME": "Введіть ім'я",
+  "ENTER YOUR SURNAME": "Введіть прізвище",
+  "CHOOSE YOUR PREFERABLE IMAGE": "Виберіть фото для аватарки",
+  "MAXIMUM SIZE OF UPLOADED FILES IS": "Максимальний розмір фото - ",
+  "FEEDBACKS": {
+    "RATING": {
+      "EXCELENT": "Чудово",
+      "VERY_GOOD": "Добре",
+      "AVERAGE": "Нормально",
+      "POOR": "Погано",
+      "TERRIBLE": "Дуже погано"
+    },
+    "LABELS": {
+      "LEAVE_FEEDBACK": "Залишити відгук",
+      "CANCEL": "Відмінити",
+      "CLOSE": "Закрити",
+      "ORDERS": "Замовлення:",
+      "CHOOSE": "Виберіть...",
+      "RATE_THE_STUDIO": "Оцініть готель:",
+      "FEEDBACK_TEXT": "Текст відгуку:"
+    },
+    "SUCCESS_MESSAGE": "Ваш відгук було закарбовано у вічності!",
+    "LOADING": "Загрузка...",
+    "NO_ORDERS_WITHOUT_FEEDBACKS": "Усі ваші замовлення вже  мають відгуки",
+    "TO_LEAVE_FEEDBACK": "Виберіть замовлення зі списку, оцініть готель та нашкрябайте щось для вічності"
+  },
+  "SEARCH": {
+    "SEARCH": "Шукати",
+    "ENTER CITY/STUDIO NAME": "Введіть назву готелю чи міста",
+    "CHECK-IN": "Заіїд",
+    "CHECK-OUT": "Виїзд",
+    "SEARCH STUDIOS": "Шукати готелі",
+    "ROOM TYPE": "Тип кімнати",
+    "CLEAR ALL SEARCH INPUTS": "Очистити всі поля пошуку",
+    "SAVE": "Зберегти"
+  },
+  "STUDIO_MANAGEMENT": {
+    "STUDIOS LIST": "Список готелів",
+    "STUDIO": "Готель",
+    "ADDRESS": "Адреса",
+    "MANAGE THE STUDIO": "Редагувати",
+    "ROOMS": "Кімнати",
+    "PHOTOS": "Фото",
+    "OTHER": "Інше"
+  },
+  "USER_ORDERS": {
+    "CREATED": "Створені",
+    "PAID": "Оплачені",
+    "COMPLETED": "Завершені",
+    "OWNER": "На розгляд"
+
+  },
+  "BOOKING": {
+    "BOOKING_LABEL": "Замовлення"
+  },
+  "DROP_ZONE": {
+    "UPLOAD_HEADING": "Завантажте фотографії для Вашого Готелю",
+    "DRAG_AND_DROP": "Візьміть та перетягніть файли сюди, або написніть щоб їх вибрати.",
+    "FILES_ARE_ALLOWED": "Тільки файли типу *.jpeg, *.webp, *.png будуть прийняті!",
+    "MAXIMUM_SIZE_UPLOAD": "Максмимальний обсяг завантажених файлів - 1 МБ!"
+  },
+  "OWNER_STUDIOS_LIST_COLUMNS":{
+    "STUDIO": "Готель",
+    "ADDRESS": "Адреса",
+    "STATUS": "Статус",
+    "ROOM_DETAILS": "Про кімнати",
+    "ADD_PHOTOS": "Додати фото"
+  },
+  "ROOM_LIST_COLUMNS":{
+    "ROOM_NUMBER": "Номер кімнати",
+    "ROOM_TYPE": "Тип кімнати",
+    "COMRORTS": "Комфорти"
+  }
+}

@@ -1,0 +1,49 @@
+@import "../../constants/variables.scss";
+
+.link-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    text-decoration: none;
+}
+
+.alert-card-warning .btn-link:hover {
+    text-decoration: none;
+}
+
+.alert-card-warning .btn-link:focus {
+    text-decoration: none;
+}
+
+.user-cabinet-nav-item .btn-link:focus {
+    text-decoration: none;
+    border-left: 5px solid $bg-main-hover;
+}
+
+.alert-card-warning .btn-link {
+    text-decoration: none;
+    color: $bg-link;
+    font-size: 14px;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: $bg-link-hover;
+}
+
+@media (max-width: 576px) {
+    .profile-name {
+        font-size: 18px;
+    }
+
+    .profile-email {
+        font-size: 20px;
+    }
+}

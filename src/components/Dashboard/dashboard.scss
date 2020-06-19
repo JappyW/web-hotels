@@ -1,0 +1,79 @@
+@import "../../constants/variables.scss";
+
+@media(max-width: 768px) {
+    .navbar-expand-md.sidenav {
+        height: 100%;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+}
+
+.link-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    text-decoration: none;
+}
+
+.sidenav {
+    overflow: hidden;
+    position: sticky;
+    background-color: $general-footer-color;
+    color: $black-color-ch;
+    text-align: left;
+    width: 100%;
+    height: calc(100vh + 210px);
+    border-right: 1px solid $general-border-color;
+}
+
+.user-cabinet-nav {
+    width: 100%;
+}
+
+.user-cabinet-nav-item {
+    background-color: $general-footer-color;
+    color: $davy-s-green;
+    text-align: left;
+    font-weight: 600;
+}
+
+.user-cabinet-nav-item:hover {
+    background-color: $dark-gray;
+    color: $davy-s-green;
+    text-align: left;
+    text-decoration: none;
+}
+
+.user-cabinet-nav-item:focus {
+    text-decoration: none;
+}
+
+.activated {
+    background-color: $dark-gray;
+    text-decoration: none;
+}
+
+.badge-nav {
+    min-width: 18px;
+    min-height: 18px;
+    padding: 5px 4px 5px 6px;
+    background: $white-color-ch;
+    text-align: center;
+    font-weight: bold;
+    color: $main-color-ch;
+}

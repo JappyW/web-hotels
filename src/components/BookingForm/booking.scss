@@ -1,0 +1,12 @@
+@import "../../constants/variables.scss";
+
+.booking-view .btn-outline-info {
+    font-size: 0.6rem;
+    padding: 0.5rem;
+    
+}
+
+select option:nth-child(odd){
+    background: $info-color-ch;
+    color: $white-color-ch;
+}

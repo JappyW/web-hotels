@@ -1,0 +1,19 @@
+@import "../../constants/variables.scss";
+
+.fa-angle-ch {
+  position: relative;
+}
+
+.icon-down {
+  .fa-angle-ch {
+    top: 3px;
+    transform: rotate(180deg);
+  }
+}
+
+.icon-up {
+  .fa-angle-ch {
+    top: -3px;
+    transform: rotate(0);
+  }
+}

@@ -1,0 +1,108 @@
+@import "../../constants/variables.scss";
+@import "../../constants/mixin.scss";
+
+.navbar {
+  height: $height-navbar;
+  box-shadow: 2px 2px 2px $general-border-color;
+  .logo-name {
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
+    color: $copper-color-ch;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+}
+
+.bg-main-light {
+  background-color: $white-color-ch;
+}
+
+.logo {
+  font-size: 35px;
+}
+
+.nav-link {
+  padding: 0 10px;
+  @include text;
+}
+
+.navbar-toggler:focus {
+  outline: 5px auto $bg-second;
+}
+
+.sign-up-container {
+  color: $bg-second;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    height: $height-navbar-mobile;
+  }
+
+  .sign-up-container {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-link {
+    padding: 10px 0px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0;
+  }
+ .navbar{
+  .logo-name{
+    font-size: 20px;
+  }
+ }
+  
+}
+
+.language {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 0px;
+}
+
+.language button {
+  width: 23px;
+  height: 17px;
+  margin-right: 10px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.language button.active {
+  box-shadow: 0 0 10px $black-color-ch;
+}
+
+.language button.ua {
+  background: url("https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/UA.png")
+    0 0 no-repeat;
+}
+
+.language button.en {
+  background: url("https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/GB.png")
+    0 0 no-repeat;
+}
+
+@media only screen and (max-width: 568px) {
+  .language {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+  }
+
+  .language button {
+    margin: 0 0 7px 0;
+  }
+
+  .language button:last-child {
+    margin: 0;
+  }
+}

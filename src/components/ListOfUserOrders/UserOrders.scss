@@ -1,0 +1,7 @@
+@import "../../constants/variables.scss";
+
+@media (max-width: 576px) {
+    .order-name, .order-date {
+        font-size: 12px;
+    }
+}

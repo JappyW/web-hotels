@@ -1,0 +1,33 @@
+@import "../../../constants/variables.scss";
+
+.confirmation-modal-styling {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: $bg-second;
+}
+
+.webstudios-modal-content{
+    min-width: 280px;
+}
+
+.modal-footer.webstudios-modal-footer {
+    justify-content: space-around;
+}
+
+.ReactModalPortal{
+    .modal-dialog{
+        margin: 0 auto;
+        .modal-content{
+            border-radius: 0;
+        }
+    }
+}
+
+.confirmation-modal-box {
+    box-shadow: $box-shadow;
+}

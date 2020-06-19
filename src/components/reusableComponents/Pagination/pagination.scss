@@ -1,0 +1,72 @@
+@import "../../../constants/variables.scss";
+
+.pagination {
+  justify-content: flex-end;
+
+  .page-link {
+    cursor: pointer;
+    color: $charleston-green;
+
+    .test-light{
+      color: $light-gray;
+    }
+    
+    &:hover {
+      color: $text-light;
+      background-color: $burlywood-color-ch;
+    }
+  }
+
+  .page-item.active {
+    .page-link {
+      color: $text-light;
+      background-color: $burlywood-color-ch;
+      border-color: $border-color;
+    }
+  }
+
+  .pagination-ch {
+    display: flex;
+  }
+
+  .pagination-ch,
+  .page-item {
+    border-radius: 0;
+  }
+
+  .page-item:first-child{
+    .page-link {
+      border-right: none;
+    }
+  }
+
+  .page-item:first-child .page-link,
+  .page-item:last-child .page-link {
+    border-radius: 0;
+  }
+
+  .page-link-mobile {
+    display: block;
+    padding: 0.3rem 0.75rem;
+    line-height: 1.25;
+    background-color: $white-color-ch;
+    border: 1px solid $border-color;
+    
+    .page-input-mobile {
+      width: 50px;
+      height: auto;
+      padding: 0 5px;
+      color: $charleston-green;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .pagination {
+    justify-content: center;
+    
+    .pagination-ch {
+      display: none;
+    }
+  }
+}

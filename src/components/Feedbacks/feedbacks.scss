@@ -1,0 +1,72 @@
+@import "../../constants/variables.scss";
+@import "../../constants/mixin.scss";
+
+.feedback-container {
+  border-radius: 5px;
+  padding: 10px;
+  background: $general-background-color;
+  box-shadow: $box-shadow;
+  justify-content: center;
+}
+
+.orderSelect {
+  border: 1px solid $dark-gray;
+  margin-bottom: 20px;
+}
+
+.feedback-textarea {
+  border: 1px solid $dark-gray;
+  width: 100%;
+}
+
+.feedback-btn {
+  width: 162px;
+}
+
+.feedbacks_label {
+  font-weight: normal;
+  color: $black-color-ch;
+}
+
+.UserStarRating {
+  font-weight: normal;
+}
+.starrating > input {
+  display: none;
+}
+
+.starrating > label:before {
+  content: "\f005";
+  margin: 2px;
+  font-size: 1.5em;
+  font-family: FontAwesome;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.starrating > label {
+  color: #222222;
+}
+
+.starrating > input:checked ~ label {
+  color: $warning-color-ch;
+}
+
+.starrating > input:hover ~ label {
+  color: $warning-color-ch;
+}
+
+@media (max-width: 992px) {
+  .feedback_button_group {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    .feedback-btn {
+      margin-top: 15px;
+      width: 156px;
+    }
+  }
+}

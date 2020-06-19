@@ -1,0 +1,79 @@
+@import "../../constants/variables.scss";
+
+.dropzone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 2px;
+    border-color: $dropzone-color-ch;
+    border-style: dashed;
+    background-color: $dropzone-bg-color-ch;
+    color: $dropzone-color-ch;
+    outline: none;
+    transition: border .24s ease-in-out;
+};
+
+.thumbsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+};
+
+.thumb {
+    display: inline-flex;
+    border: 1px solid $light-gray-ch;
+    margin: 1rem auto;
+    width: 10rem;
+    height: 10rem;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    justify-content: center;
+};
+
+.thumbInner {
+    display: flex;
+    min-width: 0;
+    overflow: hidden;
+};
+  
+img {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: auto
+};
+
+.card {
+    border-radius: 0;
+    .card-header{
+        border-radius: 0;
+        background-color: $danger-color-ch;
+        color: $white-color-ch;
+    }
+    .list-group{
+        .list-group-item{
+          padding: 1rem;
+          box-shadow: none;
+        }
+    }
+}
+
+.dropzone-controls {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    button {
+        margin-top: 1rem;
+        min-width: 10rem;
+    }
+}
+
+.info-warning-block {
+    border: 1px solid $smooth-grey-ch;
+    border-left: 0.5rem solid $info-warning-color;
+    padding: 1rem;
+    background-color: $white-color-ch;
+}

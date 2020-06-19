@@ -1,0 +1,116 @@
+@import "../../constants/variables.scss";
+@import "../../constants/mixin.scss";
+
+.studio-card-box {
+  transition: $transition-slow;
+  color: $text-light;
+  overflow: hidden;
+
+  .studio-title {
+    background-color: $dark-color-opacity;
+    transition: $transition-slow;
+
+    .studio-card-title {
+      font-size: 16px;
+      font-weight: lighter;
+      letter-spacing: $letter-spacing;
+      color: $text-light;
+      text-shadow: $text-shadow;
+    }
+  }
+
+  .studio-btn {
+    padding: 0;
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 10px;
+      color: $white-color-ch;
+      transition: $transition-slow;
+
+      &:hover {
+        color: $black-color-ch;
+      }
+    }
+  }
+
+  .studio-card-adrress {
+    font-size: 18px;
+    letter-spacing: $letter-spacing;
+    background: rgba($bg-main, 0.7);
+    transition: $transition-slow;
+  }
+
+  .ch-btn-book {
+    @include ch-button(rgba($bg-main, 0.7));
+    transition: $transition-slow;
+
+    &:hover {
+      color: $black-color-ch;
+      transition: $transition-slow;
+      border-color: inherit;
+    }
+  }
+
+  .opacity {
+    transition: $transition-slow;
+    opacity: 0;
+  }
+
+  &:hover {
+    color: $text-light;
+    box-shadow: $box-shadow;
+
+    .studio-title {
+      background-color: inherit;
+    }
+
+    .studio-main-img {
+      filter: brightness(0.4);
+      transform: scale(1.1);
+    }
+
+    .studio-card-adrress {
+      background: inherit;
+    }
+
+    .opacity {
+      opacity: 1;
+    }
+  }
+}
+
+.studio-main-img {
+  height: 330px;
+  transition: $transition-slow;
+  object-fit: cover;
+}
+
+.studio-card-info {
+  top: 0;
+}
+
+@media (max-width: 767px) {
+  .studio-card-box {
+    color: $text-light;
+    box-shadow: $box-shadow;
+
+    .studio-title {
+      background-color: inherit;
+    }
+
+    .studio-main-img {
+      filter: brightness(0.4);
+      transform: scale(1.1);
+    }
+
+    .studio-card-adrress {
+      background: inherit;
+    }
+
+    .opacity {
+      opacity: 1;
+    }
+  }
+}

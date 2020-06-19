@@ -1,0 +1,52 @@
+@import '../../constants/variables.scss';
+
+.input-field {
+  display: block;
+  width: 100%;
+}
+
+.form-control-error {
+  border-color: $bg-danger;
+}
+
+.studio-description {
+  display: block;
+  resize: none;
+  width: 100%;
+}
+
+.div-invalid-field {
+  position: relative;
+  color: $bg-danger;
+}
+
+.create-studio-button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 5px;
+  background-color: $bg-main;
+  color: $text-light;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.create-studio-input-field-label {
+  vertical-align: text-bottom;
+  font-weight: bold;
+}
+
+.starRating {
+  vertical-align: bottom;
+  text-align: bottom;
+  margin-left: 1rem;
+  font-size: 150%;
+}
+
+.create-studio-form-button-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}

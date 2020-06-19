@@ -1,0 +1,81 @@
+$font-size-small: 11px;
+$letter-spacing: 3px;
+
+$copper-color-ch: #70206a;
+$burlywood-color-ch: #e2b582;
+$darkskyblue-color-ch: #92c3c2;
+$martlegreen: #601a7c;
+$sapgreen: #4D8424;
+$pistachio: #a4d480;
+$charleston-green: #25292b;
+$davy-s-green: #4E5056;
+$general-background-color : #eeeeee;
+$general-footer-color: #dddddd;
+$general-border-color: #d1d1d1;
+$general-text-color: #7f7f7f;
+$general-modal-color: #ffffff80;
+$smooth-grey-ch: #ccc;
+$btn-info-color: #4a9c9b;
+$info-warning-color: #aba401;
+$main-color-ch: $martlegreen;
+$main-gradient-ch: linear-gradient(to left top, #92c3c2, #94c5b0, #a6c49a, #c3bf87, #e2b582);
+
+$white-color-ch: #ffffff;
+$black-color-ch: #000000;
+$light-gray: #d2d2d2;
+$dark-gray: #969696;
+
+$light-gray-ch: #d2d2d2;
+$dropzone-color-ch: #9e9e9e;
+$dropzone-bg-color-ch: #ffffff;
+$primary-color-ch: #2f7bff;
+$danger-color-ch: #B02E0C;
+$success-color-ch: #136f63;
+$warning-color-ch: #ffb400;
+$info-color-ch: #17a2b8;
+
+$border-color:$light-gray;
+
+$main-color-opacity: rgba($main-color-ch, .3);
+
+$dark-color-opacity: rgba($black-color-ch, .5);
+
+$text-light:  $white-color-ch;
+$text-black: $black-color-ch;
+
+$bg-danger: $danger-color-ch;
+$bg-danger-hover: darken($danger-color-ch, 8%);
+
+$bg-base: $light-gray;
+$bg-main: $main-color-ch;
+$bg-main-hover: darken($main-color-ch, 8%);
+$bg-second: $white-color-ch;
+$bg-scrollbar: $white-color-ch;
+$bg-scrollbar-dark: #eeeeee;
+
+$box-shadow: 0 1px 10px 2px $main-color-opacity;
+$text-shadow: $black-color-ch 0 0 2px;
+$box-shadow-list:  0 4px 6px 0px $main-color-opacity;
+
+$bg-link: $primary-color-ch;
+$bg-link-hover: $primary-color-ch;
+
+$transition: all 0.3s;
+$transition-slow: all 0.6s;
+
+$text-alert-warning: #856404;
+$text-alert-info: #0c5460;
+
+$bg-alert-warning: #fff3cd;
+$bg-alert-warning-secondary: #aaa07f;
+$bg-alert-info: #d1ecf1;
+
+$facebook-color:#3b5998;
+$instagram-color:#E1306C;
+$linkedin-color:#007bb6;
+$twitter-color:#00aced;
+
+$border-color:#dee2e6;
+
+$height-navbar: 80px;
+$height-navbar-mobile: 120px;

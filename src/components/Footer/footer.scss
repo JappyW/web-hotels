@@ -1,0 +1,57 @@
+@import "../../constants/variables.scss";
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem 0 0;
+  background-color: $white-color-ch;
+  box-shadow: 0px -2px 2px 0px $general-border-color;
+  .ico-footer {
+    font-size: 16px;
+    color: $general-text-color;
+    transition: $transition-slow;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .facebook {
+    &:hover {
+      color: $facebook-color;
+    }
+  }
+
+  .instagram {
+    &:hover {
+      color: $instagram-color;
+    }
+  }
+
+  .linkedin {
+    &:hover {
+      color: $linkedin-color;
+    }
+  }
+
+  .twitter {
+    &:hover {
+      color: $twitter-color;
+    }
+  }
+
+  .footer-name{
+    padding: 15px;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+    color: $davy-s-green;
+  }
+}
+
+@media (max-width: 610px) {
+  .dis-sm-none {
+    display: none !important;
+  }
+}

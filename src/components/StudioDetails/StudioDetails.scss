@@ -1,0 +1,262 @@
+@import "../../constants/variables.scss";
+@import "../../constants/mixin.scss";
+
+@media screen and (min-width: 1600px) {
+  .studio-detail {
+    font-size: calc(100% + 0.4vw + 0.4vh);
+    width: 100%;
+    .studio-picture{
+     height: 1150px;
+    }
+    .studio-info{
+      margin-top: -18rem;
+    }
+  }
+  .carousel .slider-wrapper {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    transition: height .15s ease-in;
+    margin: 0;
+    height: 2500px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+  .studio-detail {
+    .studio-picture{
+      height: 300px;
+      width: 450px;
+    }
+    .studio-info{
+      margin-top: 0rem;
+      margin-left: 0rem;
+      width: 425px;
+    }
+  }
+  .carousel .slider-wrapper {
+    height: 80px;
+  }
+  .carousel .slide img {
+    height: 80px;
+    object-fit: cover;
+  }
+}
+
+.studio-picture {
+  position: relative;
+  width: 100%;
+  background-color: $white-color-ch;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal-styling {
+  width: fit-content;
+  max-width: 320px;
+  height: fit-content;
+  margin: 3rem auto;
+}
+
+.carousel-modal{
+  background-color: $general-background-color;
+}
+
+.carousel .slider-wrapper {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  transition: height .15s ease-in;
+  margin: 0;
+  height: 1000px;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: 1000px;
+  vertical-align: top;
+  border: 0;
+  object-fit: cover;
+}
+
+.carousel .thumb {
+  transition: border .15s ease-in;
+  display: inline-block;
+  width: 15%;
+  margin-right: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 3px solid #fff;
+  padding: 2px;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+  margin: 0 5px;
+  display: inline-block;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+.carousel {
+  .carousel-status {
+    display: none;
+  }
+  .control-dots .dot {
+    outline: none;
+  }
+  .thumb.selected, .carousel .thumb:hover {
+    border: 0 solid transparent;
+  }
+}
+
+.thumb{
+  width: 160px !important;
+}
+
+.open-carousel{
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  z-index: 12;
+  background-color: $general-background-color;
+  padding: 1rem;
+  font-size: 25px;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+}
+
+.open-carousel:hover {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  z-index: 12;
+  background-color: #d6d4d4;
+  padding: 1rem;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 0px;
+  transition: ease-in-out 0.5s;
+  padding-right: 50px;
+}
+
+
+.studio-info{
+  margin-top: -15rem;
+  margin-left: 7rem;
+  .studio-info-color{
+      background-color: $white-color-ch;
+  }
+      .studio-name{
+        font-size: 2.5rem;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 5px;
+      }
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 1px;
+  }
+}
+
+
+
+.card{
+  border: 0.5px solid $general-background-color;
+  .comfort-list{
+    list-style-type: square;
+  }
+  .reviewNumber {
+    color: #4E5056;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 500;
+    justify-content: center;
+    vertical-align: baseline;
+    border-radius: 0;
+    height: 75px;
+    width: 95px;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+.commentStar{
+  background: #3C746F;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  justify-content: center;
+  vertical-align: baseline;
+  border-radius: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.css-yk16xz-control{
+  border-radius: 0;
+}
+.list-group-item:first-child {
+   border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.css-2b097c-container .css-1pahdxg-control{
+  border-color: $general-background-color;
+  box-shadow: 0 0 0 0 transparent;
+  border-radius: 0;
+
+}
+
+.feedback-modal{
+  background-color: $general-background-color;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.page-item.active .page-link {
+  z-index: 0;
+}
+
+.css-26l3qy-menu{
+  border-radius: 0;
+}
+
+.css-yk16xz-control{
+  border-radius: 0;
+}
+.list-group-item:first-child {
+   border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#react-select-2-input{
+  outline: 0;
+  outline-offset: 0;
+  border-color: $general-background-color;
+}
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.css-yk16xz-control:focus{
+  border-color: $general-background-color;
+}

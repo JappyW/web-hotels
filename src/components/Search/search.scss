@@ -1,0 +1,73 @@
+@import "../../constants/variables.scss";
+@import "../../constants/mixin.scss";
+
+.gradient-wrapper {
+  min-height: 120px;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #b499bf , #923cb5, #000000a8);
+  box-shadow: $box-shadow;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-container {
+  padding: 10px;
+  background: $general-background-color;
+  box-shadow: $box-shadow;
+  justify-content: center;
+}
+
+.search-input {
+  border: 1px solid $dark-gray;
+  width: 325px;
+  margin-right: 5px;
+}
+.search-data-picker,
+.search-select {
+  border: 1px solid $dark-gray;
+  margin-right: 5px;
+  width: 160px;
+}
+
+.search-tips-select {
+  border: 1px solid $dark-gray;
+  position: relative;
+  padding: 2px;
+}
+
+@media (max-width: 992px) {
+  .gradient-wrapper {
+    min-height: auto;
+  }
+
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .ch-btn-primary {
+      margin-top: 10px;
+    }
+
+    .search-data-picker,
+    .search-select,
+    .ch-btn-danger {
+      margin-top: 5px;
+    }
+  }
+}
+
+.modal-dialog{
+  max-width: 1444px;
+}
+
+.button.is-primary {
+  background-color: #601a7c;
+  border-color: transparent;
+  color: #fff;
+}

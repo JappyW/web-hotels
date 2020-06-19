@@ -1,0 +1,18 @@
+@import '../../../constants/variables.scss';
+
+.owner-studios-list {
+    .thead-owner-studios {
+        background-color: $light-gray;
+    }
+    .td-owner-studio {
+        vertical-align: middle;
+        background-color: $white-color-ch;
+    }
+}
+
+.manage-studio-buttons {
+    .btn-manage-studio {
+        letter-spacing: 1px;
+        text-transform: none;
+    }
+}

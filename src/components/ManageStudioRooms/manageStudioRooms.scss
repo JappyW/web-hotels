@@ -1,0 +1,20 @@
+@import '../../constants/variables.scss';
+
+.owner-studio-room-list {
+    .thead-owner-studio-room-list {
+        background-color: $light-gray;
+    }
+    .td-owner-studio-room-list {
+        vertical-align: middle;
+        text-align: center;
+        background-color: $white-color-ch;
+    }
+}
+
+.room-comfort-label {
+    vertical-align: middle;
+    .room-comfort-badge {
+        font-weight: 500;
+        background-color: $light-gray;
+    }
+}

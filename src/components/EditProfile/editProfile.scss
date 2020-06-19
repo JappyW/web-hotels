@@ -1,0 +1,31 @@
+@import "../../constants/variables.scss";
+
+img.img-fluid {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid $smooth-grey-ch;
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+
+.upload-ico {
+    height: 1.5rem;
+}
+
+
+.info-warning-block {
+    border: 1px solid $smooth-grey-ch;
+    border-left: 0.5rem solid $info-warning-color;
+    padding: 1rem;
+    background-color: $white-color-ch;
+}
