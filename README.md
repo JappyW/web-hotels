@@ -1,5 +1,9 @@
 # Frontend
-
+---
+My part in this application was creating the following:
+Authentication using email and password. Google Oauth. Password recovery via sending email. Password change. Password hashing. JWT system. Reusable mailer made with builder pattern. Activating account via sending email. Resending of a verification email. Making sure that only latest verification email works. Auth guard, that forbidds specific pathes. Alerts, that show up when user is inactived or didn’t specify full name. Verification of an email, password, name and surname on front end.
+Validation of an email and password on back end. Design of an user cabinet and auth related components. 
+Creating Music Player and playback of music.
 ---
 
 ## Documentation
